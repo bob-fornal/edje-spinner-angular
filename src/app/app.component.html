@@ -1,6 +1,7 @@
 <router-outlet />
 
-<edje-spinner [attr.active]="active" debug="true" [attr.config]="stringifyConfig()"></edje-spinner>
+<edje-spinner [attr.active]="active" [attr.config]="stringifyConfig()"></edje-spinner>
+
 <div class="on-top">
   <button (click)="active = !active">Toggle</button>
 </div>
